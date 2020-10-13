@@ -94,7 +94,7 @@
    <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="¿Qué es un Objeto de Aprendizaje?"></unicode>
+     <unicode value="¿Qué es un Objeto Virtual de Aprendizaje?"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
@@ -168,6 +168,8 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000; font-size: 12pt;&quot;&gt;El curso pretende ofrecerte conocimientos básicos de &lt;b&gt;DISEÑO INSTRUCCIONAL&lt;/b&gt; para poner en práctica &lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;color: #800000;&quot;&gt;OBJETOS DE APRENDIZAJE&lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;como estrategia de mediación didáctica para el fortalecimiento del quehacer pedagógico.&lt;/span&gt;&lt;/h4&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -192,7 +194,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -223,7 +225,7 @@
       <instance class="exe.engine.jsidevice.JsIdevice" reference="4">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Objeto de Aprendizaje"></unicode>
+        <unicode value="Objeto Virtual de Aprendizaje"></unicode>
         <string role="key" value="_attributes"></string>
         <list>
          <tuple>
@@ -294,8 +296,8 @@
            <string role="key" value="anchors_linked_from_fields"></string>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="			&lt;div class=&quot;exe-interactive-video&quot;&gt;				&lt;p id=&quot;exe-interactive-video-file&quot; class=&quot;js-hidden&quot;&gt;					&lt;a href=&quot;https://www.youtube.com/watch?v=RrBDT-lSv8I&amp;feature=emb_logo&quot;&gt;com/watch?v=RrBDT-lSv8I&amp;feature=emb_logo&lt;/a&gt;				&lt;/p&gt;				&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[					
-var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice&quot;,&quot;question&quot;:&quot;&lt;p&gt;¿Cuáles son los elementos que constituyen a un Objeto de Aprendizaje?&lt;/p&gt;&quot;,&quot;answers&quot;:[[&quot;Contenidos, Recursos de Aprendizajes y Objetivos de Contextualización&quot;,0],[&quot;Contenidos, Actividades de Aprendizaje y Elementos de Contextualización&quot;,1],[&quot;Objetivos de Contextualización y Contenidos de Aprendizaje&quot;,0]],&quot;startTime&quot;:47}],&quot;i18n&quot;:{&quot;start&quot;:&quot;Inicio&quot;,&quot;results&quot;:&quot;Resultados&quot;,&quot;slide&quot;:&quot;Diapositiva (fotograma)&quot;,&quot;score&quot;:&quot;Puntuación&quot;,&quot;seen&quot;:&quot;Visto&quot;,&quot;total&quot;:&quot;Total&quot;,&quot;seeAll&quot;:&quot;debe ver todo el contenido y contestar a las preguntas&quot;,&quot;noSlides&quot;:&quot;El vídeo no tiene contenidos interactivos.&quot;,&quot;goOn&quot;:&quot;Continuar&quot;,&quot;error&quot;:&quot;Error&quot;,&quot;dataError&quot;:&quot;Código no compatible&quot;,&quot;onlyOne&quot;:&quot;Sólo un vídeo interactivo por página.&quot;,&quot;cover&quot;:&quot;Portada&quot;,&quot;fsWarning&quot;:&quot;Salga del modo pantalla completa (tecla Esc) para ver la diapositiva&quot;,&quot;right&quot;:&quot;¡Correcto!&quot;,&quot;wrong&quot;:&quot;Incorrecto&quot;,&quot;sortableListInstructions&quot;:&quot;Pinche y arrastre o use las flechas.&quot;,&quot;up&quot;:&quot;Subir&quot;,&quot;down&quot;:&quot;Bajar&quot;,&quot;rightAnswer&quot;:&quot;Respuesta correcta:&quot;,&quot;notAnswered&quot;:&quot;Por favor termine la actividad&quot;,&quot;check&quot;:&quot;Comprobar&quot;,&quot;newWindow&quot;:&quot;Ventana nueva&quot;}}				//]]&gt;&lt;/script&gt;			&lt;/div&gt;"></unicode>
+           <unicode content="true" value="			&lt;div class=&quot;exe-interactive-video&quot;&gt;				&lt;p id=&quot;exe-interactive-video-file&quot; class=&quot;js-hidden&quot;&gt;					&lt;a href=&quot;https://www.youtube.com/watch?v=r30ld0w8R4s&quot;&gt;com/watch?v=r30ld0w8R4s&lt;/a&gt;				&lt;/p&gt;				&lt;script type=&quot;text/javascript&quot;&gt;//&lt;![CDATA[					
+var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice&quot;,&quot;question&quot;:&quot;&lt;p&gt;¿A qué se refiere la característica INTEROPERABLE?&lt;/p&gt;&quot;,&quot;answers&quot;:[[&quot;A la posibilidad de ser actualizados, modificados o construidos  a partir del mismo.&quot;,0],[&quot;A ser visualizado y ejecutado en diferentes plataformas.&quot;,1],[&quot;A la capacidad de ser usado con diferentes propósitos educativos.&quot;,0],[&quot;A contar con buena vigencia de la información.&quot;,0]],&quot;startTime&quot;:152}],&quot;i18n&quot;:{&quot;start&quot;:&quot;Inicio&quot;,&quot;results&quot;:&quot;Resultados&quot;,&quot;slide&quot;:&quot;Diapositiva (fotograma)&quot;,&quot;score&quot;:&quot;Puntuación&quot;,&quot;seen&quot;:&quot;Visto&quot;,&quot;total&quot;:&quot;Total&quot;,&quot;seeAll&quot;:&quot;debe ver todo el contenido y contestar a las preguntas&quot;,&quot;noSlides&quot;:&quot;El vídeo no tiene contenidos interactivos.&quot;,&quot;goOn&quot;:&quot;Continuar&quot;,&quot;error&quot;:&quot;Error&quot;,&quot;dataError&quot;:&quot;Código no compatible&quot;,&quot;onlyOne&quot;:&quot;Sólo un vídeo interactivo por página.&quot;,&quot;cover&quot;:&quot;Portada&quot;,&quot;fsWarning&quot;:&quot;Salga del modo pantalla completa (tecla Esc) para ver la diapositiva&quot;,&quot;right&quot;:&quot;¡Correcto!&quot;,&quot;wrong&quot;:&quot;Incorrecto&quot;,&quot;sortableListInstructions&quot;:&quot;Pinche y arrastre o use las flechas.&quot;,&quot;up&quot;:&quot;Subir&quot;,&quot;down&quot;:&quot;Bajar&quot;,&quot;rightAnswer&quot;:&quot;Respuesta correcta:&quot;,&quot;notAnswered&quot;:&quot;Por favor termine la actividad&quot;,&quot;check&quot;:&quot;Comprobar&quot;,&quot;newWindow&quot;:&quot;Ventana nueva&quot;}}				//]]&gt;&lt;/script&gt;			&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -358,7 +360,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:%C2%BFQu%C3%A9%20es%20un%20Objeto%20de%20Aprendizaje%3F"></string>
+     <string value="exe-node:%C2%BFQu%C3%A9%20es%20un%20Objeto%20Virtual%20de%20Aprendizaje%3F"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
